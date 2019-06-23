@@ -1,0 +1,148 @@
+/* 共通 */
+body {
+  background-color: #f6f;
+  font-size: 14px;
+  color: white;
+  margin: 0;
+}
+
+h1,h2,h3,h4 {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.container {
+  width: 900px;
+  margin:0 auto 20px auto;
+  background-color: #f00;
+}
+
+/* header */
+
+
+header {
+  margin-top: 20px;
+}
+
+.header-title-area {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+}
+
+.header-navigation {
+  width: 100%;
+  background-color: #000;
+  padding: 20px 0;
+}
+
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content:"";
+}
+
+.header-navigation li {
+  float: left;
+  padding: 0 60px;
+  text-align: center;
+  list-style-type: none;
+  width: 90px
+}
+
+.header-navigation li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* main */
+.left-container {
+  width: 550px;
+  margin: 10px 0 20px 20px;
+  float: left;
+  background-color: #088;
+}
+
+.left-container::after {
+  clear: both;
+  display: block;
+}
+
+.container-img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  float: left;
+}
+
+.post-day {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.contents-title {
+  margin: 10px;
+}
+
+.contents {
+  font-size: 12px;
+  padding: 5px;
+}
+
+.contents-list {
+  clear: both;
+  display: block;
+}
+
+.right-contatiner {
+  width: 300px;
+  margin: 15px;
+  float: right;
+  background-color: #ff4f02;
+}
+
+.right-contatiner::after {
+  clear: both;
+  display: block;
+}
+
+.infomation-img {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  float: left;
+}
+
+.infometion-title {
+  margin: 8px;
+}
+
+.infomation-day {
+  font-size: 10px;
+}
+
+.infomation-list {
+  clear: both;
+  display: block;
+}
+
+.text-title {
+  font-size: 12px;
+  margin: 5px;
+  padding-top: 20px;
+}
+
+/* フッター */
+footer {
+  clear: both;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+}
